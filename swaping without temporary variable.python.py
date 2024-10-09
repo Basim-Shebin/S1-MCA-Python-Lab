@@ -5,8 +5,11 @@ y=int(input())
 print("before swapping")
 print("x= ",x)
 print("y= ",y)
+x=x+y
+y=x-y
+x=x-y
 
 print("After swapping")
-x,y=y,x
+
 print("x= ",x)
 print("y= ",y)
