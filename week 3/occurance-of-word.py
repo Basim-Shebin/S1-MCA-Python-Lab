@@ -1,8 +1,9 @@
-input = str(input("Enter a line of text"))
-splitted = input.split(' ')
-counted = []
-for i in splitted:
-    if i not in counted:
-        count = splitted.count(i)
-        print(f'Count of {i} is {count}')
-        counted.append(i)
+string =input("Enter a line of text: ")
+w=input("enter the word ")
+a=[]
+count=0
+a=string.split(" ")
+for i in range(0,len(a)):
+    if(w==a[i]):
+        count=count+1
+print("count of word is : ",count)
